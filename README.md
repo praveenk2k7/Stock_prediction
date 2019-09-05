@@ -8,6 +8,7 @@ https://finance.yahoo.com/quote/AAPL/history?p=AAPL
 
 # Data Analysis
 
+![image](https://user-images.githubusercontent.com/44360746/64338966-81ad0000-d015-11e9-813d-25f8f9a31fbb.png)
 
 
 # Task 1: 3 different regression models to predict the price
