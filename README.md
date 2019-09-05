@@ -27,6 +27,9 @@ The moving average curve showcase the increasing or decreasing trend of stocks p
 The return of the stock is found by the fraction of price at time t to the price at time shifted back by 1 minus 1. 
 Expected return is the mean or expected value of the probability distribution of investment returns. 
 
+![image](https://user-images.githubusercontent.com/44360746/64340202-2defe600-d018-11e9-97d1-03957907fc63.png)
+
+
 # Task 1: 3 different regression models to predict the price
 
   
