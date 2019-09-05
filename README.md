@@ -29,6 +29,7 @@ Expected return is the mean or expected value of the probability distribution of
 
 ![image](https://user-images.githubusercontent.com/44360746/64340202-2defe600-d018-11e9-97d1-03957907fc63.png)
 
+The plot shows there is a deop at 2013 adn the ideal stock return is based on return as high or stable.
 
 # Task 1: 3 different regression models to predict the price
 
