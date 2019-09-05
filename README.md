@@ -14,7 +14,11 @@ The dataframe contains six different features,
 
 open which remarks the starting price of the stock at the opening of the day. Similarly, Close represents the close price of the stock at the end of the day. Low and High are the lowest point and the highest point respectively on the particular day. The adjusted closing price is the amended closing price with factors in anything that might affect the stock price after the market closes.
 
-Exploring Rolling Mean: 
+**Exploring Rolling Mean:** 
+
+Rolling Mean/Moving Average smooths out the price, cut down the noise and reveals the trend of the stock price. It smooths out by creating a constantly updated average price.
+
+
 
 # Task 1: 3 different regression models to predict the price
 
