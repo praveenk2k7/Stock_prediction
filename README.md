@@ -2,7 +2,7 @@
 Predict stock prices using different Deep learning and ML models
 
 # Overview
-This is the project on predicting the stock prices using various Machine Learning and Deep Learning models ranging from simple linear models to reinforcement learning. The task also includes analyzing stocks using python. The project is based on basic python and ML libraries along with historical data of AAPL downloaded form yahoo finance. The link is provided below
+This is the project on predicting the stock prices using various Machine Learning and Deep Learning models. The project also includes analyzing stocks using python. The project is based on basic python and ML libraries along with historical data of AAPL downloaded form yahoo finance. The link is provided below
 
 https://finance.yahoo.com/quote/AAPL/history?p=AAPL
 
@@ -31,7 +31,14 @@ Expected return is the mean or expected value of the probability distribution of
 
 The plot shows there is a deop at 2013 adn the ideal stock return is based on return as high or stable.
 
-# Task 1: 3 different regression models to predict the price
+# Feature Engineering
+
+It is important to clean the data before using them in the model. In our dataset, we 
+# Regression models to predict the price
+
+
+**Linear Regression**
+
 
   
 
