@@ -33,7 +33,16 @@ The plot shows there is a deop at 2013 adn the ideal stock return is based on re
 
 # Feature Engineering
 
-It is important to clean the data before using them in the model. In our dataset, we 
+It is important to clean the data before using them in the model. In our dataset, we predict the adjusted close value using the features. 
+
+    Drop missing value
+    Separating the label here, we want to predict the AdjClose
+    Scale the X so that everyone can have the same distribution for linear regression
+    Finally We want to find Data Series of late X and early X (train) for model generation and evaluation
+    Separate label and identify it as y
+    Separation of training and testing of model by cross validation train test split
+ 
+ 
 # Regression models to predict the price
 
 
