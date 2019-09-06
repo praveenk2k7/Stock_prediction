@@ -36,8 +36,9 @@ The plot shows there is a deop at 2013 adn the ideal stock return is based on re
 It is important to clean the data before using them in the model. In our dataset, we predict the adjusted close value using the features. 
 
     Drop missing value
-    Separating the label here, we want to predict the AdjClose
-    Scale the X so that everyone can have the same distribution for linear regression
+    Separate one percent of data to forecast
+    Separate the label, we want to predict the AdjClose
+    Scale the independent variable X so that every variable has same distribution
     Finally We want to find Data Series of late X and early X (train) for model generation and evaluation
     Separate label and identify it as y
     Separation of training and testing of model by cross validation train test split
@@ -47,6 +48,10 @@ It is important to clean the data before using them in the model. In our dataset
 
 
 **Linear Regression**
+
+Simple linear regression is useful for finding relationship between two continuous variables. One is predictor or independent variable and other is response or dependent variable. It looks for statistical relationship but not deterministic relationship. Relationship between two variables is said to be deterministic if one variable can be accurately expressed by the other.
+
+
 
 
   
