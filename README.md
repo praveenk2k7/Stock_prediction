@@ -54,6 +54,7 @@ Simple linear regression is useful for finding relationship between two continuo
 
 
 
+
   
 
 
