@@ -43,13 +43,51 @@ It is important to clean the data before using them in the model. In our dataset
     Separate label and identify it as y
     Separation of training and testing of model by cross validation train test split
  
+ ![Features](https://user-images.githubusercontent.com/44360746/64469383-9eefe480-d163-11e9-8633-8588f6400ae5.png)
  
+
 # Regression models to predict the price
 
+**Results**
 
-**Linear Regression**
+**Confidence score: **
 
-Simple linear regression is useful for finding relationship between two continuous variables. One is predictor or independent variable and other is response or dependent variable. It looks for statistical relationship but not deterministic relationship. Relationship between two variables is said to be deterministic if one variable can be accurately expressed by the other.
+R-squared is a statistical measure of how close the data are to the fitted regression line. It is also known as the coefficient of determination, or the coefficient of multiple determination for multiple regression.The definition of R-squared is fairly straight-forward; it is the percentage of the response variable variation that is explained by a linear model.
+
+R-squared = Explained variation / Total variation
+
+**MSE**
+Mean Squared error: squared differences between the estimated value and the actual value.
+
+***Linear Regression***
+
+
+
+Mean Squared Error=119.7
+Confidence score = 72.5%
+
+***Adding ridge regression to Linear classifier***
+
+![Ridge regression](https://user-images.githubusercontent.com/44360746/64469564-ed52b280-d166-11e9-83f6-560a81ecee94.png)
+
+As the tunable paramert lambda increases, the MSE increases. So the model performs better with no regularization.
+
+***Quadratic Regression with ridge regularizer***
+
+MSE: 118.9
+Confidence Score = 72.9%
+
+***cubic features with ridge regularizer***
+
+MSE: 118.9
+Confidence Score = 72.9%
+
+
+**Forecast using Linear Regression prediction**
+
+![Forecast](https://user-images.githubusercontent.com/44360746/64469612-8bdf1380-d167-11e9-914f-a1ec106f99ee.png)
+
+
 
 
 
